@@ -1,38 +1,122 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+
+.navbarStyle{
+  font-family: 'Philosopher', sans-serif;
+  
+}
+
+.nav-link span {
+  color:#fff;
+  font-size: 1em;
+  transition: color 0.3s linear;
+  transition: font-size ease-in-out 0.3s;
+}
+.nav-link span:hover {
+  color: rgb(202, 255, 122);
+  border-bottom: rgb(202, 255, 122);
+  font-size: 1.2em;
+}
+
+
+.icons {
+  color:#fff;
+  font-size: 2em;
+  margin:10px;
+  padding-top: 1em;
+}
+
+.icons i {
+  margin-left: 50px;
+  transition: 0.3s font-size ease-in;
+}
+.icons i:hover {
+  font-size:1.5em;
+}
+
+#root {
+  background-color: rgb(202, 255, 122);
+}
+
+#name {
+  text-align: center;
+  width: 100%;
+  min-height: 30vh;
+  margin-top: 20vh;
+  
+}
+
+i{
+  color: #fff;
+  size: 1em;
+  transition: color ease-in 0.5s;
+}
+i:hover {
+  color: rgb(202, 255, 122);
+}
+
+
+#name h1 {
+  font-family:'Philosopher',  sans-serif;
+  font-size: 5em;
+  color: rgba(240, 248, 255, 0.5);
+  transition: color 2s ease-in;
+  animation: nameframe ease 2s;
+}
+@keyframes nameframe {
+  0% {
+    color:#fff;
+  }
+  25% {
+    color: rgb(223, 255, 174);
+  }
+  50% {
+    color: rgb(202, 255, 122);
+  }
+  75% {
+    color: rgb(179, 255, 65);
+  }
+  100% {
+    color: rgb(158, 255, 11);
+  }
+}
+
+#name h1:hover{
+  color: rgb(202, 255, 122);  
+}
+
+#name h2 {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.MainPage{
+  background-color: rgb(107, 107, 107);
+  height:100%;
+  min-height: 100vh; ;
+}
+.footer {
+  margin-top: 20vh;
+  color: #fff;
+  margin-bottom: 0%;
+  background-color:rgb(107, 107, 107);
+  position: fixed;
+  width: 100%;
+  bottom: 0%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#myDescription {
+  color: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#copyright {
+  font-family: 'Philosopher', sans-serif;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-top: 1em;
+  margin-bottom: 0;
+  padding-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
-}
+#brandName span{
+  color: rgb(202, 255, 122) ;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

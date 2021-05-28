@@ -1,0 +1,19 @@
+.navbar{
+    background: black;
+}
+.navbar.navbarbrand p{
+    color:blue;
+}
+
+#name {
+    font: 800px;
+    text-align: center;
+    
+}
+.home {
+    background-color: aquamarine;
+}
+.mainpage {
+    background-color: aquamarine;
+}
+
